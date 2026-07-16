@@ -53,7 +53,6 @@ We will use `Bash` to submit our request to run our pipeline on a different node
 •	Fill parameters as needed. Below is my basic job.
 ```command
 #!/bin/bash
-#SBATCH --reservation=teaching
 #SBATCH --account=teaching
 #SBATCH -J barque_test #job name
 #SBATCH -N 1 #min number of nodes for job
@@ -119,7 +118,7 @@ nano primers.csv
   #If you have your primers saved in a backup folder just copy and paste it in the current barque run.
 cp 01_barque_backup/02_info/primers.csv barque/02_info/primers.csv
 `#Or copy and paste below.
-12S_200pb, GTCGGTAAAACTCGTGCCAGC, CATAGTGGGGTATCTAATCCCAGTTTG,150,190,12S,0.97,0.95,0.90
+12S_200pb,GTCGGTAAAACTCGTGCCAGC,CATAGTGGGGTATCTAATCCCAGTTTG,150,190,12S,0.97,0.95,0.90
 ```
 •	The primer.csv file is accessed during the pipeline but only the lines that are not hashtag will be used. So you will want to hashtag all the primers you didn’t use and remove hashtags from the line (primers) you used.
 

@@ -1,5 +1,5 @@
 # eDNA_workshop 
-<img src="https://qubs.ca/themes/qubs/logo.png" width="270" height="100"> <img src="https://qubs.ca/themes/qubs/images/queens-logo.png" width="150" height="100"> <img src="https://carleton.ca/engineering-design/wp-content/uploads/logo-nserc-400x300.png" width="150" height="150"> 
+<img src="https://qubs.ca/themes/qubs/logo.png" width="270" height="100"> <img src="https://qubs.ca/themes/qubs/images/queens-logo.png" width="150" height="100">
 
 
 material for [eDNA workshop 2023](https://qubs.ca/eDNAWorkshop)

@@ -58,7 +58,7 @@ We will use `Bash` to submit our request to run our pipeline on a different node
 #SBATCH -N 1 #min number of nodes for job
 #SBATCH -n 1 #max number of tasks
 #SBATCH -c 1 #CPUs per task
-#SBATCH --mem= 2048 MB #memory required per node 
+#SBATCH -mem=2048MB #memory required per node 
 #SBATCH -t 0-1:0:0 #max time will take = days-hours:mins:secs
 #SBATCH --mail-type=BEGIN,END,FAIL #messages you want to receive via email about job
 #SBATCH --mail-user=youremail@example.ca #where to send those emails
